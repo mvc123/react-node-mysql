@@ -1,0 +1,21 @@
+{
+  "name": "test_react",
+  "displayName": "test_react",
+  "version": "0.1.0",
+  "description": "An app that shows parts of the Thomaswebsite on mobile devices.",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx webpack-dev-server --public=0.0.0.0:8080",
+    "webpack": "npx webpack --config webpack.config.js",
+    "node-server": "node server.js"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^4.2.2"
+  }
+}
